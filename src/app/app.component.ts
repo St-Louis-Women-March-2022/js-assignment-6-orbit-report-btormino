@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Satellite } from './satellite';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -31,8 +32,8 @@ export class AppComponent {
 
 				 // make a copy of the sourceList to be shown to the user
 				 this.displayList = this.sourceList.slice(0);
-	  
-			}.bind(this));
+				
+				}.bind(this));
 		}.bind(this));
 
 	}
